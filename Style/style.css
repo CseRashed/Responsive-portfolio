@@ -44,12 +44,12 @@ font-family: Work Sans;
 font-size: 3em;
 font-weight: 700;
 }
-.banner .banner-content p{
+.banner .banner-content p , section .section .section-container p{
     color:#727272;
 font-family: Work Sans;
 line-height: 26px; 
 }
-.banner .banner-content button{
+.banner .banner-content button, section .section .section-container button{
     border: none;
     border: 20px solid #FF900E;
     border-radius: 8px;
@@ -59,3 +59,34 @@ font-family: Work Sans;
 margin: 30px auto;
 cursor: pointer;
 }
+
+/* section -1 Related Styles */
+section{
+    padding: 85px 300px 130px  300px;
+}
+.section{
+    display: flex;
+    gap: 75px;
+}
+
+section .section .section-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+.section-container{
+    margin: auto 0;
+}
+section .section .section-container h2{
+    font-size: 3em;
+    font-family: Work Sans;
+}
+.first{
+    color:#727272;
+    font-weight: 500;
+}
+.second{
+    color: #FF900E; 
+    font-weight: 700;
+}
+
