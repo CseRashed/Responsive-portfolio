@@ -121,12 +121,51 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
     width: 708px;
 height: 982px;
 }
-.section .section-2-container .section-image .extra{
-    color: #FFF;
-text-align: center;
+
+/* fact Related Styles */
+.fact{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-3-container{
+    margin-bottom: 100px;
+}
+.section-3{
+    padding: 100px 290px auto 240px;
+}
+.section-3-container h2{
+    color:#131313;
 font-family: Work Sans;
 font-size: 3em;
-width: 13%;
 font-weight: 700;
-line-height: 70px; 
+}
+.section-3-container p{
+    color:#727272;
+font-family: Work Sans;
+line-height: 26px; 
+}
+.primary{
+    color:#424242;
+font-family: Work Sans;
+font-size: 2em;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.paragraph{
+    color:#727272;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.fact > div{
+    border:1px dotted #FF900E; 
+    text-align: center;
+    padding: 20px 10px 0 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
 }
