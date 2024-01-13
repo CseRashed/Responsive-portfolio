@@ -1,4 +1,8 @@
- 
+ *{
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap')
+</style>
+ }
  header{
     background: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
@@ -134,7 +138,7 @@ height: 982px;
 .section-3{
     padding: 100px 290px auto 240px;
 }
-.section-3-container h2{
+.section-3-container h2, #heading{
     color:#131313;
 font-family: Work Sans;
 font-size: 3em;
@@ -168,4 +172,33 @@ line-height: normal;
     width: 200px;
     height: 200px;
     border-radius: 5px;
+}
+
+/* Sponsor and finished */
+.sponsor-image{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer{
+   
+    text-align: center;
+}
+.sponsor-content{
+    margin: auto 689px;
+}
+.sponsor-image{
+    margin: 50px 240px 0px 240px ;
+    height: 50px;
+}
+#finished{
+    border: 2px dotted blue;
+    border-radius:5px;
+    background: #FFF4E7;
+    margin: 130px 240px 150px 240px;
+    height: 100px;
+    padding: 35px 400px;
+    color:#424242;
+    font-family: Work Sans;
+    font-size: 20px;
 }
